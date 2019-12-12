@@ -27,7 +27,7 @@
 		D279F2402220009C00E1C28E /* DiffAware.swift in Sources */ = {isa = PBXBuildFile; fileRef = D279F23E2220009C00E1C28E /* DiffAware.swift */; };
 		D279F2412220009C00E1C28E /* DiffAware.swift in Sources */ = {isa = PBXBuildFile; fileRef = D279F23E2220009C00E1C28E /* DiffAware.swift */; };
 		D279F2422220009C00E1C28E /* DiffAware.swift in Sources */ = {isa = PBXBuildFile; fileRef = D279F23E2220009C00E1C28E /* DiffAware.swift */; };
-		D284B1051F79038B00D94AF3 /* DeepDiff_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D284B0FC1F79038B00D94AF3 /* DeepDiff_tvOS.framework */; };
+		D284B1051F79038B00D94AF3 /* DeepDiff.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D284B0FC1F79038B00D94AF3 /* DeepDiff.framework */; };
 		D284B1381F7906DB00D94AF3 /* Info-iOS-Tests.plist in Resources */ = {isa = PBXBuildFile; fileRef = D284B12F1F7906DA00D94AF3 /* Info-iOS-Tests.plist */; };
 		D284B1391F7906DB00D94AF3 /* Info-tvOS-Tests.plist in Resources */ = {isa = PBXBuildFile; fileRef = D284B1301F7906DA00D94AF3 /* Info-tvOS-Tests.plist */; };
 		D284B13B1F7906DB00D94AF3 /* Info-macOS-Tests.plist in Resources */ = {isa = PBXBuildFile; fileRef = D284B1331F7906DA00D94AF3 /* Info-macOS-Tests.plist */; };
@@ -92,9 +92,9 @@
 		D23849211FA86DEF00316A21 /* PerformanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceTests.swift; sourceTree = "<group>"; };
 		D239E41F1FAE34740042E7BA /* IndexPathConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexPathConverter.swift; sourceTree = "<group>"; };
 		D279F23E2220009C00E1C28E /* DiffAware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffAware.swift; sourceTree = "<group>"; };
-		D284B0FC1F79038B00D94AF3 /* DeepDiff_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DeepDiff_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D284B0FC1F79038B00D94AF3 /* DeepDiff.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DeepDiff.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D284B1041F79038B00D94AF3 /* DeepDiff-tvOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DeepDiff-tvOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D284B1181F79039F00D94AF3 /* DeepDiff_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DeepDiff_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D284B1181F79039F00D94AF3 /* DeepDiff.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DeepDiff.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D284B12F1F7906DA00D94AF3 /* Info-iOS-Tests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-iOS-Tests.plist"; sourceTree = "<group>"; };
 		D284B1301F7906DA00D94AF3 /* Info-tvOS-Tests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-tvOS-Tests.plist"; sourceTree = "<group>"; };
 		D284B1331F7906DA00D94AF3 /* Info-macOS-Tests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-macOS-Tests.plist"; sourceTree = "<group>"; };
@@ -131,7 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D284B1051F79038B00D94AF3 /* DeepDiff_tvOS.framework in Frameworks */,
+				D284B1051F79038B00D94AF3 /* DeepDiff.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,9 +238,9 @@
 				D5B2E8A91C3A780C00C0327D /* DeepDiff-iOS-Tests.xctest */,
 				D5C629401C3A7FAA007F7B7C /* DeepDiff.framework */,
 				D5C629491C3A7FAA007F7B7C /* DeepDiff-macOS-Tests.xctest */,
-				D284B0FC1F79038B00D94AF3 /* DeepDiff_tvOS.framework */,
+				D284B0FC1F79038B00D94AF3 /* DeepDiff.framework */,
 				D284B1041F79038B00D94AF3 /* DeepDiff-tvOS-Tests.xctest */,
-				D284B1181F79039F00D94AF3 /* DeepDiff_watchOS.framework */,
+				D284B1181F79039F00D94AF3 /* DeepDiff.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -317,7 +317,7 @@
 			);
 			name = "DeepDiff-tvOS";
 			productName = "DeepDiff-tvOS";
-			productReference = D284B0FC1F79038B00D94AF3 /* DeepDiff_tvOS.framework */;
+			productReference = D284B0FC1F79038B00D94AF3 /* DeepDiff.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D284B1031F79038B00D94AF3 /* DeepDiff-tvOS-Tests */ = {
@@ -353,7 +353,7 @@
 			);
 			name = "DeepDiff-watchOS";
 			productName = "DeepDiff-watchOS";
-			productReference = D284B1181F79039F00D94AF3 /* DeepDiff_watchOS.framework */;
+			productReference = D284B1181F79039F00D94AF3 /* DeepDiff.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D5B2E89E1C3A780C00C0327D /* DeepDiff-iOS */ = {
@@ -685,7 +685,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.DeepDiff-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = DeepDiff;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -715,7 +715,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.DeepDiff-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = DeepDiff;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -790,7 +790,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.DeepDiff-watchOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = DeepDiff;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -821,7 +821,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.DeepDiff-watchOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = DeepDiff;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;

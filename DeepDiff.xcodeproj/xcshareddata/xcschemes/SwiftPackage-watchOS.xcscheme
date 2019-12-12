@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D284B1171F79039F00D94AF3"
-               BuildableName = "DeepDiff_watchOS.framework"
+               BuildableName = "DeepDiff.framework"
                BlueprintName = "DeepDiff-watchOS"
                ReferencedContainer = "container:DeepDiff.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D284B1171F79039F00D94AF3"
-            BuildableName = "DeepDiff_watchOS.framework"
+            BuildableName = "DeepDiff.framework"
             BlueprintName = "DeepDiff-watchOS"
             ReferencedContainer = "container:DeepDiff.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D284B1171F79039F00D94AF3"
-            BuildableName = "DeepDiff_watchOS.framework"
+            BuildableName = "DeepDiff.framework"
             BlueprintName = "DeepDiff-watchOS"
             ReferencedContainer = "container:DeepDiff.xcodeproj">
          </BuildableReference>
